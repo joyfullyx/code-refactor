@@ -2,7 +2,7 @@
 
 ## Completed Tasks
 
-For this assignment, I refactored the exsisting code from [code-refactor] (.Code/homework/code-refactor/index.html) to make it cleaner and easier to read for the viewer. 
+For this assignment, I refactored the exsisting code to make it cleaner and easier to read for the viewer. 
 
 The first steps were to improve and update the semantics of the existing code, making it easier to read and to find and reference the different sections of the code. 
 
@@ -22,3 +22,4 @@ The footer was appropriately wrapped in the <footer> element.
 
 The other important change that was made was to make the entire webpage accessible. The first image was missing the alt attribute, so one was added with the appropriate value of "search engine optimization."
 
+Lastly, there were a lot of repetitive stylings under too many uneccessary classes, so I consolidated them for a cleaner flow of the css file. 
