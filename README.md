@@ -1,25 +1,27 @@
-# 01 HTML, CSS, and Git: Code Refactor Homework Assignment
+# Code Refactor Assignment
 
-## Completed Tasks
+## Improving the HTML accessibility and consolidating CSS
 
-For this assignment, I refactored the exsisting code to make it cleaner and easier to read for the viewer. 
+The end goal of this exercise was to improve the accessibility for users that may be using screen readers, and to optimize the readability for Search Engine Optimization. 
 
-The first steps were to improve and update the semantics of the existing code, making it easier to read and to find and reference the different sections of the code. 
+## Changes made to index.html
 
-The existing code came with a lot of <div> elements that made it difficult to follow and read, so I was able to replace them with appropriate semantic elements to help the flow of the code. 
+The existing code, though almost fully functional, needed changes to optimize readability for SEO and to allow full accessibility to users that may need screen readers to navigate the webpage. 
 
-I used the <head> element at the top of the code that includes the link to the stylesheet, as well as the title for the tab of the webpage. 
+The existing code had repetitive use of the div tags which can be confusing to the reader as they provide little to no information as to what is in the tags. 
 
-I used the <header> element and nested <nav> into it for the header of the web page. When changing the <div> to <nav>, I found that I had to change .header div on line 27 in style.css to .header nav for the stylesheet to work properly in alignment with the new semantic element. 
+To improve readability, the div tags were appropriately replaced with semantic elements to be able to quickly and easily reference different sections of the code. The new semantic elements used are: **head**, **nav**, **main**, **section**, **aside**, and **footer**.
 
-I wrapped the main content on the webpage containing the Search Engine Optimization, Online Reputation Management and Social Media Marketing sections into <main> because it contains the bulk of the main information found on the web page, and wrapped the three header sections and their images appropriately in <section>. 
+The headers were also edited to be listed in descending order, as not to have an **h2** below a **h3**.
 
-I was uncertain about line 27 containing the class="hero" and why there was a url to the image in style.css instead of using <img>. After doing some research, I came to the conclusion that it is because the image does not contain any informational content, and is for design and styling purposes only. It also would not be a necessary image to be printed, should the user decide to print the page since it does not contain any information beyond the image itself.
+Within these newly added and improved semantic elements, the reader will now be able to easily reference different sections more easily and seamlessly. 
 
-For the information in the box on the right side of the webpage, I used the <aside> element since it is not part of the main content of the page and displayed to the side. 
+## Changes made to style.css
 
-The footer was appropriately wrapped in the <footer> element. 
+The provided CSS document was consolidated by placing items under the same selectors together since they had the same styling rules. It was not necessary to separately list each selector separately with repeated stylings. 
 
-The other important change that was made was to make the entire webpage accessible. The first image was missing the alt attribute, so one was added with the appropriate value of "search engine optimization."
+## Links to Horiseon Webpage
 
-Lastly, there were a lot of repetitive stylings under too many uneccessary classes, so I consolidated them for a cleaner flow of the css file. 
+[GitHub](https://github.com/joyfullyx/code-refactor)
+
+[Horiseon](https://joyfullyx.github.io/code-refactor/)

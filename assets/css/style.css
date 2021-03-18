@@ -91,11 +91,13 @@ p {
     color: #ffffff;
 }
 
-/* .benefit-brand {
+/* consolidated to minimize repeition
+.benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
-}
+} */
 
+/* consolidated to minimize repeition
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
@@ -106,11 +108,13 @@ p {
     text-align: center;
 }
 
-/* .benefit-brand h3 {
+/* consolidated to minimize repeition
+.benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+} */
 
+/* consolidated to minimize repeition
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -122,12 +126,14 @@ p {
     max-width: 150px;
 }
 
-/* .benefit-brand img {
+/* consolidated to minimize repeition
+.benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
 
+/* consolidated to minimize repeition
 .benefit-cost img {
     display: block;
     margin: 10px auto;
@@ -143,15 +149,17 @@ p {
     color: #ffffff;
 }
 
-/* .online-reputation-management {
+/* consolidated to minimize repeition
+.online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} */
 
+/* consolidated to minimize repeition
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -165,10 +173,12 @@ p {
     max-height: 200px;
 }
 
-/* .online-reputation-management img {
+/* consolidated to minimize repeition
+.online-reputation-management img {
     max-height: 200px;
-}
+} */
 
+/* consolidated to minimize repeition
 .social-media-marketing img {
     max-height: 200px;
 } */
@@ -178,11 +188,13 @@ p {
     font-size: 36px;
 }
 
-/* .online-reputation-management h2 {
+/* consolidated to minimize repeition
+.online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
+/* consolidated to minimize repeition
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
